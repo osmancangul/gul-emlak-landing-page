@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 150vh;
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header ul {
+    display: flex;
+    gap: 100px;
+}
+
+.header .baslik a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.header .tel i {
+    color: white;
+    font-size: 14px;
+}
+
+.header .tel a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+
+.header .mail i {
+    color: white;
+    font-size: 14px;
+}
+
+.header .mail a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+
+}
+
+.col-2 form {
+    width: 435px;
+    height: 556px;
+    border: 1px solid #eceefe;
+    background-color: #eceefe;
+    padding: 50px;
+    line-height: 70px;
+    margin-left: 200px;
+}
+
+.col-2 form input{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #454444;
+    border:none;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.col-2 form textarea{
+    width: 100%;
+    height: 150px;
+    padding-top: 60px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 25px;
+    color: #454444;
+    border:none;
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.col-2 form .btn{
+    width: 100%;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 25px;
+    color: white;
+    border:none;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
